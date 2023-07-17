@@ -3,7 +3,7 @@ import platforms from "../data/platforms"
 import { FetchResponse } from "../services/apiClient"
 import apiClient from "../services/apiClient"
 
-interface Platform {
+export interface Platform {
     id: number
     name: string
     slug: string
